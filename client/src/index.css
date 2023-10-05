@@ -1,0 +1,674 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.watsaplink{
+  position: relative;
+}
+.watsap{
+  border: none;
+  width: 55px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  transition: transform 0.5s ease;  
+}
+
+.watsap:hover{
+  transform: scale(0.95)
+}
+
+.insta{
+  width: 35px;
+}
+
+.facebook{
+  width: 35px;
+  border-radius: 12px;
+}
+
+.headline{
+  font-size: 10px;
+
+}
+
+.whatsap{
+  width: 35px;
+  border-radius: 6px;
+}
+
+/* Navbar.css */
+.navbar {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 0 50px;
+  background: white;
+}
+
+.navbar-brand img {
+  max-width: 100px;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.nav-item{
+  padding: 0 20px;
+  list-style: none;
+}
+
+.dropdown-menu{
+  padding: 15px;
+   font-size: 17px;
+   line-height: 30px;
+   margin: 2px 10px ;
+}
+
+.dropdown-item{
+  border-radius: 3px;
+}
+
+.dropdown-item:hover{
+background: grey;
+color: white;
+}
+
+.active{
+  border-bottom: 1px solid black;
+}
+.footer{
+ 
+  color: white;
+  padding: 25px;
+  background: #FAFAFA;
+}
+
+.footer_col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #121212;font-size: 13px;
+}
+
+.footer a:hover{
+  color: #ffefba;
+  border-bottom: 1px solid #ffefba;
+}
+
+.contact-address p{
+  font-size: 12px;
+}
+
+.pnf{
+  display: flex;
+  min-height: 65vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.pnf-title{
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.pnf-heading{
+  font-weight: normal;
+}
+
+.pnf-btn{
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.pnf-btn:hover{
+  background-color: rgb(37, 35, 35);
+  color: white;
+}
+
+.row_contactus{
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  background-color: #faf9f7;
+  margin: 2px 20px;
+}
+.colomimg{ 
+  margin-right: 20px;
+  width: 40%;
+}
+.colomimg img{
+width: 100%;
+}
+
+
+.colomabout{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.colomabout h3{
+  font-size: 40px;
+  line-height: 40px;
+}
+.colomabout p{
+  font-size: 18px;
+}
+
+.contact-address a{
+  text-decoration: none;
+  color: #606265;
+}
+
+.contact-address a:hover{
+  color: #962b10;
+  opacity: 0.8;
+}
+
+
+.contact-address span{
+  font-size: 15px;
+}
+
+
+.top_btn{
+  display: flex;
+  gap: 32px;
+}
+
+.contact_form{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact_form form{
+display: flex;
+gap: 20px;
+flex-direction: column;
+padding-bottom: 20px;
+}
+.form_control{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  
+}
+
+.form_control input{
+  height: 40px;
+  padding: 0 8px;
+ border: 1px solid gray;
+ border-radius: 3px;
+}
+
+.form_control label{
+ position: absolute;
+ top: -12px;
+ left: 10px;
+ background-color: white;
+ padding: 0 10px;
+ font-size: 14px;
+}
+
+.btn{
+  background: none;
+  border: 2px solid grey;
+border-radius: 0%;
+font-size: 18px;
+}
+
+.btn:hover{
+  background: grey;
+  color: white;
+}
+
+
+.dash{
+  background: none;
+  border: none;
+  outline: none;
+  margin: 5px 0;
+}
+
+.dash:active{
+  background: #161212;
+  color: white;
+}
+
+.product-link{
+  text-decoration: none;
+  color: black;
+}
+
+.roli .card{
+  text-decoration: none;
+  padding: 10px;  
+  margin: 0 10px ;
+  position: relative;
+  border: 1px solid rgb(243, 238, 238);
+}
+
+.roli .card img{
+  transition: transform 0.6s ease;
+}
+
+.roli .card img:hover{transform: scale(0.95);}
+
+.roli .card h6{
+  font-size: 20px;
+  margin-top: 15px;
+  font-weight: bolder;
+}
+
+.aminclr .list-group-item{
+  background-color: #434343;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  transition: transform 0.6s ease;
+}
+
+.aminclr .list-group-item:hover{
+  transform: scale(0.95);
+}
+
+.rolibtn{
+  border-radius: 5px;  
+}
+
+.product-info img {
+  max-width: 100px; /* Adjust the value to control the image size */
+  height: auto;
+  margin-right: 5px;
+}
+
+
+/*product card slider*/
+.product-slider {
+  margin: 20px 0 0 0;
+}
+
+.product-card {
+  padding: 10px;
+  text-align: left;
+  position: relative;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;  
+  transition: transform 0.6s ease;
+}
+
+.product-card img:hover{
+  transform: scale(0.95);}
+
+
+.cat .product-card{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cat .product-card p{
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  padding: 2px 0; 
+  border-radius: 3px;
+  width: 81%;
+}
+
+.cat img{
+  width: 100%;
+  height: 480px;
+}
+
+.statuselect {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    margin: 8px 0;
+  }
+  
+  
+  .statuselect option {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 3px;   
+  }
+
+
+.payselct option{
+  background: none;
+outline: none;
+border: none;
+}
+
+
+.cartemp {
+  font-size: 150px;
+  padding-bottom: 0;
+}
+
+
+.sale_p{
+  display: flex;
+}
+
+
+.orders-container {
+  padding: 20px;
+}
+
+.order-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.order-card {
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.order-card:hover {
+  transform: scale(1.02);
+}
+
+.order-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.order-card p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
+
+.order-card h3 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.order-card ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.order-card li {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .order-card {
+    width: 100%;
+  }
+}
+
+
+.order-summary{
+  background-color: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 5px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.descriptionpara{
+  width: 60%;
+  margin-left: 100px;
+}
+
+.descriptionpara p{
+line-height: 20px;
+}
+
+
+.reviewmain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.review-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%; /* This sets the review list to fill the full viewport height */
+}
+
+.slick-slide {
+  text-align: center;
+}
+
+.review-card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 300px;
+  margin-bottom: 10px;
+}
+
+.profile-info h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.star-rating {
+  margin-top: 6px;
+  font-size: 24px;
+  color: #FFD700;
+}
+
+.review-text {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* Slick Carousel Styles */
+.slick-slider {
+  width: 100%;
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.slick-slider .slick-prev,
+.slick-slider .slick-next {
+  position: absolute;
+  display: inline-block;
+  font-size: 0;
+  color: transparent;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.slick-slider .slick-prev {
+  left: 15px;
+}
+
+.slick-slider .slick-next {
+  right: 15px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+  padding: 0;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  background: transparent;
+  border: 0;
+  outline: none;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slick-dots li button:before {
+  content: "•";
+  font-size: 22px;
+  line-height: 1;
+  color: #ccc;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FFD700;
+}
+
+
+
+/*footer input*/
+
+.comment-form {
+  display: flex;
+  align-items: center;
+  
+  color: #121212;
+}
+
+.comment-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: black;
+}
+
+.comment-button {
+  background-color: #161212;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.comment-button:hover {
+  background-color: #312d2d;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search-box {
+  position: relative;
+  display: inline-block;
+}
+
+.search-box input[type="text"] {
+  padding-right: 30px;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+
+
+@media screen and (max-width:1050px) {
+  .colomimg img{
+    display: none;
+    }
+    .colomimg{ 
+      display: none;
+    }
+    .colomabout{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 5%;
+    }
+}
